@@ -5,3 +5,4 @@ File order:
 1. Intro
 2. This Talk
 3. Game Basics
+4. Patterns and Antipatterns.

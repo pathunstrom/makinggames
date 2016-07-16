@@ -10,9 +10,10 @@ is that this is how a player interacts with your game. In an object oriented
 sense, this input IS your player.
 
 Player input is a complex problem. Your first concern when considering input is
-how a player interacts with the game. If you make a web game, it could be HTML 
-requests, or it could use javascript to get various system events, like 
-keyboard input, mouse movement, or clicks. For a native game, it will depend 
+how a player interacts with the game. If you make a web game, it could be HTTP 
+requests or api calls, or it could use javascript to get various system events 
+you get from the document api, like keyboard input, mouse movement, or clicks. 
+For a native game, like you would program with python, it will depend 
 directly on the engine or framework you're using what tools you have for 
 interaction. For example Unity Engine includes an input tool that lets you 
 define various controls and let's you operate on the provided values. It also 
@@ -24,12 +25,14 @@ functions.
 Even after you've defined where your input is coming from, you have a handful
 of options on how to use the information. A common pattern you'll find in books
 like Inventing Games With Python and Pygame is to use variables to catch every 
-input event, modifying the value each time the key state changes. For some 
-purposes, like text input or setting input keys, this is a desirable pattern,
-but it results in many operations each game loop that won't be used if you're
-using it during the simulation. So be cautious in your use of this pattern, and
-realize that sometimes checking state at the time you need the information is
-enough.
+input event, modifying the value each time the key state changes. 
+WASD movement is a very common tool, in this case you would have variables 
+determining if these keys are active, setting and unsetting them as events come 
+in. For some purposes, like text input or setting input keys, this is a 
+desirable pattern, but it results in many operations each game loop that won't 
+be used if you're using it during the simulation. So be cautious in your use of 
+this pattern, and realize that sometimes checking state at the time you need 
+the information isenough.
 
 The simulation is the fun part. You want to solve problems, this is the place
 most of them crop up.
@@ -75,4 +78,4 @@ done by an outside library, but note that depending on your choice, this will
 be one of the major bottlenecks to your rendering speed.
 
 So that's the basics of a video game. With this knowledge and a little bit of
-experimentation you have enough to build a single screen game.
+experimentation you have enough to build a single screegn game.

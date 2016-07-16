@@ -7,3 +7,5 @@ File order:
 3. Game Basics
 4. Patterns and Antipatterns.
 5. Design Patterns
+6. Libraries
+7. Outro

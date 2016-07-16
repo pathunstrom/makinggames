@@ -6,3 +6,4 @@ File order:
 2. This Talk
 3. Game Basics
 4. Patterns and Antipatterns.
+5. Design Patterns

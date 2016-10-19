@@ -1,6 +1,12 @@
-# Pygotham 2016 Talk: Making Games - Piper Thunstrom
+# Making Games
 
-File order:
+This talk is about making games with Python. The current fileorder was for the
+first time the talk was given. Files are in the `talk-notes` directory.
+
+Additionally, notes and resources I collect to improve the talk will be 
+included in the `resources` directory.
+
+File order for talk given at Pygotham 2016:
 
 1. Intro
 2. This Talk

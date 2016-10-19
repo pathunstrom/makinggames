@@ -78,4 +78,4 @@ is, until your game scenes get more complicated. Then managing when you enter
 and exit various loops can become a nightmare.
 
 The solution is a full repertoire of possible design patterns for your game
-scenes. 
+scenes.

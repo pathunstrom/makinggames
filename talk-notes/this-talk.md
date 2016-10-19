@@ -2,7 +2,7 @@ So let's talk about games.
 
 Things I intend to cover:
 
-The basic code structure of a video game. If you're not even sure to start, 
+The basic code structure of a video game. If you're not even sure where to start, 
 this is where you want to pay attention.
 
 Beginner anti-patterns. There are a lot of habits that most books teach that 

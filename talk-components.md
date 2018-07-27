@@ -1,0 +1,33 @@
+- Introduction
+- Uses for games
+- learned trig, linear algebra and calculus
+- learned Software design patterns -- MVC, game specific patterns
+- Basic talk structure
+- Long running processes
+- Player Input Introduction
+- Events, event loops, event handlers
+- Strategies for player input
+- Simulation introduction
+- Collision
+- Movement
+- Paramerterized movement vs per frame update
+- Modeling (OO, ECS, ???)
+- Behaviors
+- Picking Behaviors
+- Rendering introduction
+* Rendering cost warning
+- Drawing functions
+- Blitting
+* OpenGL **NEEDS RESEARCH**
+* SDL
+- Pixels as simulation plane/space
+- Fixed Step Simulation vs alternatives
+- While True vs For count() vs while running
+- Nested Loops
+- Scenes
+- pygame
+- pyglet
+- arcade
+- ppb
+- Outro
+- screens

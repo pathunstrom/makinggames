@@ -78,4 +78,4 @@ done by an outside library, but note that depending on your choice, this will
 be one of the major bottlenecks to your rendering speed.
 
 So that's the basics of a video game. With this knowledge and a little bit of
-experimentation you have enough to build a single screegn game.
+experimentation you have enough to build a single screen game.

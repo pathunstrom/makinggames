@@ -1,7 +1,7 @@
 So we're done with game loops, now onto some organizational thoughts.
 
 How do you make a game with multiple different sections? You know,
-menus, games, game over screens.
+menus, multiple levels, game over screens.
 
 In general, you'll find each of these things referred to as "scenes".
 A scene is simply a single part of your game.
@@ -26,6 +26,8 @@ The neat part of this is that you don't need to use loops to test your
 scene anymore.
 You call the appropriate functions and can check the state on the far
 side.
+There's only one infinite loop in your entire program and you don't
+have to debug it!
 
 You'll probably want to experiment with all of these methods and find
 what you like best because the cool part about Python game making:

@@ -6,6 +6,7 @@ After that, we talk about video games and how you make them.
 We'll cover player input.
 Then modeling and simulation.
 At the tail end of that section, we'll cover rendering and graphics.
+(very lightly)
 
 After we break from the details, we'll cover some organization.
-And finish up with some game libraries you can go try.
+And finish up with some game resources you can go checkout.

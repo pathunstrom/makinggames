@@ -20,18 +20,8 @@ I even spent a week learning the ins and outs of fireworks for a game I
 wanted to build.
 
 On top of all of that, though: I was learning software engineering.
-If you have any questions:
-* find me in the hall
-* tweet me @pathunstrom,
-* email me at pathunstrom@gmail.com
 
-You can find my talk notes on github at pathunstrom/making-games.
-
-You can find the source to `ppb` at github.com/ppb.
-Contributions encouraged, we need docs, examples, tests, and we're
-working on the event system.
-
-Thanks everyone for your time!I've organized this talk like a how I'd write a video game.
+I've organized this talk like a how I'd write a video game.
 Here, we're setting up for the talk proper.
 We'll cover a couple details you'll need to follow along.
 
@@ -39,9 +29,11 @@ After that, we talk about video games and how you make them.
 We'll cover player input.
 Then modeling and simulation.
 At the tail end of that section, we'll cover rendering and graphics.
+(Very lightly)
 
 After we break from the details, we'll cover some organization.
-And finish up with some game libraries you can go try.
+And finish up with some game resources you can go checkout.
+
 Games, like all graphical interface programs, including your web
 browser are long running process.
 I guarantee the entire room has used a tool or framework that uses one.
@@ -71,6 +63,7 @@ render.
 This is great for your first game, but `while True` will quickly get in
 the way of things. In general, I prefer a boolean to handle my loop for
 me. And that'd look more like this.
+
 So we enter our game loop and start with player input.
 
 We often call these "main" loops event loops as an extension of the
@@ -104,6 +97,7 @@ On the outside this can provide your code a single interface to various
 input.
 Inside the class you can abstract the idea of specific keys by letting
 a configuration file define what keys map to what particular input.
+
 We advance our loop, and now we get to the _fun_ part.
 In the simulation is where the game happens.
 A bunch of objects moving and interacting according to the rules we
@@ -140,6 +134,7 @@ conflicts, but it has a larger learning curve if you're building on
 your own.
 
 The right modeling design depends on the game and your skill level.
+
 Moving on to behaviors: so a behavior is literally what a game object
 does.
 
@@ -243,6 +238,7 @@ Assuming a standard coordinate plane:
     return vertical_distance < combined_height and horizontal_difference < combined_width
 
 And now you can determine when you hit things.
+
 Moving on to rendering, we should start with screens.
 
 Your screen is made up of a two dimensional array of pixels.
@@ -324,6 +320,7 @@ In Python rendering is probably the _most_ expensive thing you're going
 to do in a game.
 Pygame on some systems can take up to a full 33 ms to render a frame,
 leaving you with negative time to maintain 30 frames per second.
+
 So we're done with game loops, now onto some organizational thoughts.
 
 How do you make a game with multiple different sections? You know,
@@ -356,6 +353,7 @@ side.
 You'll probably want to experiment with all of these methods and find
 what you like best because the cool part about Python game making:
 there's a lot of opinions.
+
 I can't cover every game related library here, because there are a lot,
 but I'm going to highlight a few.
 Two of them are included because they've been around a while
@@ -399,3 +397,16 @@ Al's books are awesome and his Pygame books are part of what I learned
 on.
 So if you want more practical examination of this topic, definitely
 the next place to look.
+
+If you have any questions:
+* find me in the hall
+* tweet me @pathunstrom,
+* email me at pathunstrom@gmail.com
+
+You can find my talk notes on github at pathunstrom/making-games.
+
+You can find the source to `ppb` at github.com/ppb.
+Contributions encouraged, we need docs, examples, tests, and we're
+working on the event system.
+
+Thanks everyone for your time!

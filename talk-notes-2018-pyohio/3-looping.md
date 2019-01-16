@@ -12,10 +12,10 @@ To do that, we use something that looks a lot like a busy loop.
 While True, get any input, make updates, and show the user the
 result.
 Unlike web servers, in games:
-* Our input tends to come from hardware
-* Our state and models exist directly in memory
-* Our output is rendered directly, instead of being sent to a remote
-  user.
+* Our input tends to come from hardware interupts
+* Our state and models exist directly in memory instead of a DB
+* Our output is rendered directly, instead of being sent via the
+  internet.
 
 So a really basic game can look like this.
 

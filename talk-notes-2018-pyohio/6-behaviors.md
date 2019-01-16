@@ -9,39 +9,42 @@ To make this concrete, let's use Gaunlet as an example.
 Enemies and the player have a move behavior.
 Enemies, the player, and spawners can be damaged.
 The player can attack.
-Spawners can spawn.
+Spawners can spawn enemies.
 
 Behaviors can take a lot of forms, and depending on how you chose to
 model your game, it'll affect some of how you program them.
 It's harder, for example, to use the State or Strategy patterns when
 your game objects are just data structures.
 
-When you first start writing games, you'll probably use per frame
+When you are first start writing games, you'll probably use per frame
 updates.
 Effectively, every time your game loop ticks, you do the same behavior.
-Think a ball bouncing left to right.
+Think a ball bouncing left to right or a rocket taking off.
+Every tick, you move the same distance.
 This style of update has a flaw, though: the speed of the game is based
 on the computational cost of your game loop and the speed of the
 processor it's running on.
-That's a _lot_ of variability.
+That produces a _lot_ of variability.
 
-So the first thing you want to fix this is to parameterize all your
-behaviors based on time.
+So the first thing you want to be able to fix that variability is to
+parameterize all your behaviors based on time.
 
 The difference looks like this.
 "dt" here stands for "delta time" and stands for the amount of time to
 simulate.
 By doing this, we can think of speed in real world terms:
 Some distance per second.
+In this awful example: one pixel per second.
 
-In the engine itself, you need to start tracking run time, and inject
-the delta every frame into the simulation.
+Now to do this this you need to start tracking run time in the engine,
+and inject that delta time every frame into the simulation.
 
-A second trick is instead of injecting the full delta every loop is to
+A second trick is instead of injecting the full dt every loop is to
 break up that time delta and update your objects with tiny fixed time
 steps.
 So if a game loop took 33 milliseconds, but you want the simulation to
 be sixty updates per second, you split up that 33 into two 16 ms chunks.
+The remainder you can carry forward to the next loop.
 
 Another pattern to know is the Update pattern, which is used in almost
 every game library you have available to you.

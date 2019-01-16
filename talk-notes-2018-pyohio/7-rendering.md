@@ -1,5 +1,6 @@
 Moving on to rendering, we should start with screens.
 
+Warning that the following description is _heavily_ simplified.
 Your screen is made up of a two dimensional array of pixels.
 Each pixel can produce red, green, and blue light, in some mix.
 How these pixels get lit depends on the tech in your monitor, but
@@ -33,16 +34,18 @@ The biggest problem with this comes when you start trying to add camera
 effects of any kind:
 A camera that follows objects can have trouble if you only use full
 pixels for movement.
-Zooming is almost impossible as you try to add more game space, your
-pixel grid has to become smaller somehow.
-And a game developers favorite effect, screen shake, is _really_ hard if
+Zooming is almost impossible:
+as you try to add more game space, your pixel grid has to become
+more dense somehow.
+Game developers favorite effect, screen shake, is _really_ hard if
 you're only using your display space as game space.
 
 To fix it, think in 'game units', which can be arbitrary scale.
+(Meters is good)
 Then add an object to be your camera, and use it's position and other
 features to decide what, exactly, to draw to screen.
 
-It takes some figuring out, but it opens up a whole work of
+It takes some figuring out, but it opens up a whole world of
 possibilities.
 
 But to get to those possibilities, you need to know how to get images

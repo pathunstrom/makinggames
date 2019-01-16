@@ -31,3 +31,4 @@ On the outside this can provide your code a single interface to various
 input.
 Inside the class you can abstract the idea of specific keys by letting
 a configuration file define what keys map to what particular input.
+(A clean example of this won't really fit on a slide.)

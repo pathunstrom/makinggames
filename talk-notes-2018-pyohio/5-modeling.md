@@ -1,4 +1,4 @@
-We advance our loop, and now we get to the _fun_ part.
+We advance through our loop, and now we get to the _fun_ part.
 In the simulation is where the game happens.
 A bunch of objects moving and interacting according to the rules we
 write.
@@ -13,7 +13,9 @@ eventually get messy.
 
 We can use object orientation to model our game space.
 This has the convenience of coupling behaviors directly to our game
-objects, which makes it easy to track what's called where.
+objects
+(why else would we want OO?),
+which makes it easy to track what's called where.
 It also allows us to keep a lot of redundant calls out of our
 framework.
 In my experience, anywhere you can think of your mechanics as the
@@ -27,7 +29,7 @@ The basic idea is:
 * Your attributes belong to components, which are objects your entities
   contain.
 * Systems take entities, and act on them if they have the right
-  components. These would be your systems.
+  components. These would be your behaviors.
 
 The advantage of ECS is that you can build much large games with fewer
 conflicts, but it has a larger learning curve if you're building on

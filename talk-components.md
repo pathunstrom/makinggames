@@ -15,11 +15,11 @@
 - Behaviors
 - Picking Behaviors
 - Rendering introduction
-* Rendering cost warning
+  * Rendering cost warning
 - Drawing functions
 - Blitting
-* OpenGL **NEEDS RESEARCH**
-* SDL
+  * OpenGL **NEEDS RESEARCH**
+  * SDL
 - Pixels as simulation plane/space
 - Fixed Step Simulation vs alternatives
 - While True vs For count() vs while running

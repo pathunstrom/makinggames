@@ -1,12 +1,11 @@
-I've organized this talk like a how I'd write a video game.
-Here, we're setting up for the talk proper.
-We'll cover a couple details you'll need to follow along.
+I want to inspire you to make games.
 
-After that, we talk about video games and how you make them.
-We'll cover player input.
-Then modeling and simulation.
-At the tail end of that section, we'll cover rendering and graphics.
-(very lightly)
+I'll show you that games are simple to get started with.
 
-After we break from the details, we'll cover some organization.
-And finish up with some game resources you can go checkout.
+I'll show you that they have nearly infinite depth for experimentation.
+
+I'll show you that failure, when you're using them to learn or as a hobby,
+is effectively free.
+
+At the end of all of this, I'll provide some resources you should check out
+when you decide to continue.

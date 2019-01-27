@@ -54,7 +54,7 @@ def get_user_input():
         try:
             x, y = value.split(",")
             x = ['a', 'b', 'c'].index(x)
-            y = [1, 2, 3].index(int(y))
+            y = ['1', '2', '3'].index(y)
             output = x + (y * 3)
         except ValueError:
             print("Input should be look like 'a, 1'")

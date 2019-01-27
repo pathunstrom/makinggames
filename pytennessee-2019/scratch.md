@@ -18,3 +18,6 @@ Things to convey to do so:
 3. Show that the cost of failure is effectively 0.
     1. LIVE CODING!
     2. Encourage reinventing the wheel
+
+
+color_key = 255 64 222

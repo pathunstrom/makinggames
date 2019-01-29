@@ -14,7 +14,7 @@ class Player(NamedTuple):
 def check_horizontal(first, board):
     if board[first] is None:
         return False
-    return all(board[first] == space for space in  board[first:first + 3])
+    return all(board[first] == space for space in board[first:first + 3])
 
 
 def check_vertical(first, board):

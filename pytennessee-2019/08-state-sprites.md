@@ -42,6 +42,8 @@ selected.
 This pattern is pretty common in Pygame, often with an included `update` method
 (we don't need it for squares in tic-tac-toe so it isn't here.)
 
+    EXTRA CREDIT: Update Pattern
+
 In general, this pattern is going to get you a long way. I've build games based
 on shoot 'em ups, arcade games, board games, and even a miniature action rpg
 using exactly this.

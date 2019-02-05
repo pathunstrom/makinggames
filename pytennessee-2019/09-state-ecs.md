@@ -20,4 +20,4 @@ by professional game developers regularly. If you move from Python games into
 something like Unity, you'll recognize this pattern.
 
 There's a library written by Katie Silverio called Braga to check out if this
-sounds interesting
+sounds interesting to you.

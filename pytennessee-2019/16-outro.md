@@ -7,6 +7,6 @@ You can find my talk notes on github at pathunstrom/making-games.
 
 You can find the source to `ppb` at github.com/ppb.
 Contributions encouraged, we need docs, examples, tests, and we're
-working on the event system.
+working on a new back end.
 
 Thanks everyone for your time!

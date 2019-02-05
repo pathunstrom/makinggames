@@ -14,5 +14,9 @@ your first game:
 - you'll make changes to the game state based on the player's input (or your AI)
 - then you'll render the result for the player to react to.
 
+With some of the game libraries available to you in python, your game loop is
+done for you, but I encourage you to try building some little things where you
+hand roll your event loop to get a feel for it.
+
 Going forward, we'll discuss how to handle each of these in the context of
 tic-tac-toe.

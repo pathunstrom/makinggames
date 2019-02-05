@@ -40,7 +40,7 @@ Then it has only one behavior we care about: We need to update it when it gets
 selected.
 
 This pattern is pretty common in Pygame, often with an included `update` method
-(we don't need it for squares in tic-tac-toe so it isn't here.)
+(which aren't needed for squares in tic-tac-toe, so not in our example.)
 
     EXTRA CREDIT: Update Pattern
 

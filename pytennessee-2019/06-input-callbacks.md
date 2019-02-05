@@ -8,6 +8,26 @@ a callable which gets called when the event happens.
 Anyone who has worked in javascript would recognize this pattern from the
 addHandler method on most objects.
 
+    class Board:
+        
+        def __init__(self):
+            self.current_symbol = "X"
+            self.squares = []
+            for x, y in product(range(3), range(3)):
+                square = Square(x, y)
+                square.listen(ClickEvent, self.set_symbol)
+                self.squares.append(square)
+        
+        def set_symbol(self, click_event):
+            event.square.symbol = self.symbol
+            if self.symbol == "X":
+                self.symbol == "O"
+            else:
+                self.symbol == "X"
+
+In this sample when I make a square, I also register through this listen
+function for a `ClickEvent` so I can set the value for that square.
+
 Alternatively, some frameworks have you name your handlers something specific,
 like on_update, and pass in the relevant parameters for the event type.
 

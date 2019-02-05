@@ -12,7 +12,7 @@ lowest level, this is memory or an object that is where the pixel data lives
 for a given image. From here forward, we're going to use pygame's term for them.
 
 When you set up your pygame game, you call pygame.display.set_mode and that
-returns a special Surface that represents the actual render space. *'* Anything on
+returns a special Surface that represents the actual render space. (the window) *'* Anything on
 this surface will be rendered to the screen when you call pygame.display.update
 (or flip). *'*
 
@@ -22,7 +22,7 @@ color. If you're drawing the frames "manually", you'll usually start that
 process by blanking your display surface with fill.
 
 The next thing you might do is your library's drawing module. This gives you
-some primitive drawing primitives like
+some  drawing primitives like
 * circles
 * lines
 * rectangles
@@ -30,6 +30,8 @@ some primitive drawing primitives like
 
 In the case of pygame, you pass the draw function the surface you want to draw
 to and the parameters to draw and it'll put down things like lines.
+
+TODO: Sample
 
 Moving on to blitting, which is taking the contexts of one Surface and putting
 them on another. Keeping Pygame as an example, when you call the blit method on

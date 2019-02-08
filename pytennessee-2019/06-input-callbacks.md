@@ -28,6 +28,8 @@ addHandler method on most objects.
 In this sample when I make a square, I also register through this listen
 function for a `ClickEvent` so I can set the value for that square.
 
+* Pygame decorator
+
 Alternatively, some frameworks have you name your handlers something specific,
 like on_update, and pass in the relevant parameters for the event type.
 
@@ -37,6 +39,8 @@ you check your events.
 
 It adds a complication though, in that you must coordinate your responses
 somewhere other than in your callbacks.
+
+    Example
 
 A handy pattern I like to use is a Controller object that handles your hardware
 events and provides attributes to control various bits of the game.

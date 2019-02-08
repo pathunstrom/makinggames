@@ -40,8 +40,8 @@ So we:
 2. start a loop predicated on the output variable being set. *'*
 3. set up a try/except block. *'*
 4. Ask for input and transform it. *'*
-5. If it fails, in the except block, we're going to tell the user what they
-   should do. *'*
+5. If it fails, we're going to tell the user what they
+   should do inside the except block. *'*
 
 This is more or less all you need to know to start managing input for text
 based games, but I also want to cover GUI based games. *'*

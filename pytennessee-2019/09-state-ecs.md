@@ -8,9 +8,13 @@ both work. Every _thing_ that makes up your game is an entity. *'*
 
 Components are _also_ simple objects with data attached. An entity is made up of
 its internal components. So if you have a collection of game objects that are
-Alive, *'* perhaps your Alive class will have hit points so you can determine 
-when to kill the object. *'* Similarly, a Flier component might include data on
-how high, or fast, your character can go while in the air. *'*
+Alive,
+
+perhaps your Alive class will have hit points so you can determine 
+when to kill the object.
+
+Similarly, a Flier component might include data on how high, or fast, your
+character can go while in the air. *'*
 
 Systems act on objects with the right combination of components. In general,
 it's the systems that do things like move your objects around.

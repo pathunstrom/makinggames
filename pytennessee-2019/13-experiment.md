@@ -22,4 +22,4 @@ which means experimenting with your algorithms to make your choke points faster.
 
 And as you become more familiar with your favored tools, you can even start
 identifying ways to improve the tools you use. I've submitted a few bugs to
-Pygame over the years where the API didn't work.
+Pygame over the years where the API didn't work they claimed it did.

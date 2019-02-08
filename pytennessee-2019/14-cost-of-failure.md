@@ -3,3 +3,7 @@
 Notes on first job
 
 // live code!
+
+import ppb
+
+ppb.run()

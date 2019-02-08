@@ -9,3 +9,5 @@ is effectively free.
 
 At the end of all of this, I'll provide some resources you should check out
 when you decide to continue.
+
+* Extra credit

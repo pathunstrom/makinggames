@@ -12,7 +12,8 @@ lowest level, this is memory or an object that is where the pixel data lives
 for a given image. From here forward, we're going to use pygame's term for them.
 
 When you set up your pygame game, you call pygame.display.set_mode and that
-returns a special Surface that represents the actual render space. (the window) *'* Anything on
+returns a special Surface that represents the actual render space. (the window)
+*'* Anything on
 this surface will be rendered to the screen when you call pygame.display.update
 (or flip). *'*
 

@@ -46,4 +46,4 @@ This pattern is pretty common in Pygame, often with an included `update` method
 
 In general, this pattern is going to get you a long way. I've build games based
 on shoot 'em ups, arcade games, board games, and even a miniature action rpg
-using exactly this.
+using exactly this form of state modeling.

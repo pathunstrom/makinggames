@@ -8,7 +8,8 @@ What we mean by events is a message that _something_ happened. Things like
 * hitting the close button on the window *'*
 
 Usually, you can extend the input events with your own to note things like
-enemies dying or points being accumulated.
+enemies dying or points being accumulated. This is usually how you collect
+information for things like achievements.
 
 There's two major strategies to interacting with an event system as I mentioned
 earlier and we'll cover event polling first.
@@ -34,11 +35,11 @@ If you've seen pygame tutorials, you'll recognize this:
             winner = event.winner
 
 On every game loop, we're going to ask the event system for a list of events
-that have arrived since the last call. *'* Then we check each for the events we
-care about. Most of them are going to be based on the SDL events, but you can
-also extend the system and define your own event types, like in this sample
-where the AI tells me when it makes moves and when the game ends an event is
-raised. *'*
+that have arrived since the last call. *'* We loop over them, and then we check 
+each for the events we care about. Most of them are going to be based on the 
+SDL (Simple Direct Media library) events, but you can also extend the system
+and define your own event types, like in this sample where the AI tells me when
+it makes moves and when the game ends an event is raised. *'*
 
 In general, you'll use these events to tell objects to change their state, like
 in this example selecting a square on the tic-tac-toe board or take some global

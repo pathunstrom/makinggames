@@ -32,8 +32,6 @@ some  drawing primitives like
 In the case of pygame, you pass the draw function the surface you want to draw
 to and the parameters to draw and it'll put down things like lines.
 
-TODO: Sample
-
 Moving on to blitting, which is taking the contexts of one Surface and putting
 them on another. Keeping Pygame as an example, when you call the blit method on
 the destination surface, *'* pass it the source surface, *'* then optionally a

@@ -20,6 +20,9 @@ There's a lot of material in these two that can be applied directly to video
 games. And once you're done there, you can start trying to optimize your games,
 which means experimenting with your algorithms to make your choke points faster.
 
+Additionally, I mentioned those extra credit notations throughout my slides:
+each of those show another thing to explore in the world of game development.
+
 And as you become more familiar with your favored tools, you can even start
 identifying ways to improve the tools you use. I've submitted a few bugs to
 Pygame over the years where the API didn't work they claimed it did.

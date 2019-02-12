@@ -2,6 +2,17 @@ Once you've mastered that, or when you start building bigger games and get
 bitten by deep inheritance trees, you'll want to look into one more style of
 state models: Entity *'*-Component *'*-System *'*, or ECS.
 
+    entity = {"Transform": Transform(position=(0, 0), w=100, h=100)}
+
+    entity["Alive"] = Alive(hitpoints=100)
+    entity["Mover"] = Mover(speed=5)
+
+    def move_system(entity, time_delta):
+        if mover := entity.get("Mover"):
+            transform = entity.get("Transform")
+            transform.position = (transform.position +
+                                 (1 * mover.speed * time_delta, 0))
+
 To break it down into its components, an Entity is each of your game objects.
 They function as basic containers, think of either a dictionary or name space as
 both work. Every _thing_ that makes up your game is an entity. *'*

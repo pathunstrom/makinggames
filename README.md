@@ -6,14 +6,10 @@ first time the talk was given. Files are in the `talk-notes` directory.
 Additionally, notes and resources I collect to improve the talk will be 
 included in the `resources` directory.
 
-[View the slides](https://pathunstrom.github.io/makinggames/)
+# Resources and Extra Credit
 
-File order for talk given at Pygotham 2016:
-
-1. Intro
-2. This Talk
-3. Game Basics
-4. Patterns and Antipatterns.
-5. Design Patterns
-6. Libraries
-7. Outro
+* [Fix your timestep](https://gafferongames.com/post/fix_your_timestep/)
+* [Making a Text Adventure Game with the cmd and textwrap Python Modules](https://inventwithpython.com/blog/2014/12/11/making-a-text-adventure-game-with-the-cmd-and-textwrap-python-modules/)
+* [Update Method Pattern](http://www.gameprogrammingpatterns.com/update-method.html)
+* [Braga ECS](https://github.com/astrosilverio/braga)
+*

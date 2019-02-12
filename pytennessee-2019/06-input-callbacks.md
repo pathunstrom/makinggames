@@ -6,7 +6,7 @@ the object watching called a method on the object its watching and provides it
 a callable which gets called when the event happens.
 
 Anyone who has worked in javascript would recognize this pattern from the
-addHandler method on most objects.
+addEventListener method on most objects.
 
     class Board:
         
@@ -28,7 +28,7 @@ addHandler method on most objects.
 In this sample when I make a square, I also register through this listen
 function for a `ClickEvent` so I can set the value for that square.
 
-* Pygame decorator
+The pyglet decorator syntax is this style of callback.
 
 Alternatively, some frameworks have you name your handlers something specific,
 like on_update, and pass in the relevant parameters for the event type.
@@ -43,5 +43,7 @@ somewhere other than in your callbacks.
     Example
 
 A handy pattern I like to use is a Controller object that handles your hardware
-events and provides attributes to control various bits of the game.
+events and provides attributes to control various bits of the game. In this
+sample my controller class takes objects that tell it what kind of output
+to give, and the player class asks the controller for the names it cares about.
 
